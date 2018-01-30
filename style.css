@@ -1,0 +1,409 @@
+/*Entypo pictograms by Daniel Bruce — www.entypo.com*/
+
+/*STANDARD */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+	position: relative;
+}
+
+.crapp {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+
+/* HEADER */
+header {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	display: block;
+	z-index: 10;
+	background-color: #fff;
+}
+
+.logo {
+	max-height: 75px;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+	padding-top: 25px;
+	font-size: 25px;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
+	
+}
+
+nav a:hover {
+	color: #28286b;
+}
+
+/* BANNER */
+
+#banner-img {
+	background-image: url("banner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 900px;
+	margin-bottom: 100px;
+}
+
+/* BANNER-TEXT*/
+
+.banner-text-one {
+	text-align: right;
+	font-size: 75px;
+	padding-right: 15%;
+	padding-top: 300px;
+}
+
+.banner-text-two p {
+	text-align: right;
+	font-size: 30px;
+	padding-right: 15%;
+}
+
+/* Button */
+
+button {
+	padding: 15px 25px;
+	background-color: #fff;
+	text-align: center;
+	margin-left: 1190px;
+	margin-top: 15px;
+	font-family: "PT Sans Narrow";
+	font-size: 25px;
+	border: none;
+}
+
+button:hover {
+	background-color: #192d5e;
+	color: #fff;
+}
+
+/* ABOUT ME */
+
+
+#aboutme ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#aboutme li {
+	display: inline-block;
+	font-size: 25px;
+	width: 49%;
+	vertical-align: top;
+}
+
+#aboutme h2 {
+	padding-top: 10px;
+	font-size: 75px;
+	display: inline;
+	text-align: center;
+	margin-left: 40%;
+}
+
+.aboutme-text-left h3 {
+	font-size: 50px;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+.aboutme-text-right h3 {
+	font-size: 50px;
+	text-align: right;
+	padding-bottom: 30px;
+}
+
+.aboutme-text-left h5 {
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+
+.aboutme-text-left p {
+	font-size: 25px;
+	text-align: left;
+}
+
+/* Button two */
+
+.button-two {
+	margin: 0;
+	padding: 15px 25px;
+    background-color: #192d5e;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "PT Sans Narrow";
+    font-size: 25px;
+	color: #fff;
+    border: none;
+	margin-bottom: 30px;
+}
+
+.button-two:hover {
+	background-color: #1a377d;
+	color: #fff;
+}
+
+#aboutme img {
+	max-height: 500px;
+	padding-left: 75px;
+}
+
+/*EXPERTISE*/
+
+.expertise {
+	height: auto;
+	width: 85%;
+	padding-top: 10px;
+}
+
+/* EDUCATION & EXPERIENCE */
+
+.edu-exp {
+	margin-bottom: 100px;
+}
+
+.edu-exp ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: auto;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.edu-exp li {
+	display: inline-block;
+	font-size: 25px;
+	width: 49%;
+	vertical-align: top;
+	background-color: #cccccc;
+}
+
+.edu-exp h2 {
+	padding-top: 10px;
+	font-size: 75px;
+	display: inline;
+	margin-left: 40%;
+}
+
+.edu-exp-text-left h3 {
+	font-size: 50px;
+	padding-bottom: 30px;
+	text-align: left;
+}
+
+
+.edu-exp-text-left h5 {
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+
+.edu-exp-text-left p {
+	font-size: 25px;
+}
+
+.edu-exp-text-right h3 {
+	font-size: 50px;
+	padding-bottom: 30px;
+	text-align: right;
+}
+
+.edu-exp-text-right h5 {
+	text-align: right;
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+
+.edu-exp-text-right p {
+	font-size: 25px;
+}
+
+.edu-exp-text-right li {
+	text-align: right;
+}
+
+.edu-exp-text-left li {
+	text-align: left
+}
+
+/* SERVICE */
+
+#service ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#service li {
+	display: inline-block;
+	font-size: 25px;
+	width: 49%;
+	vertical-align: top;
+}
+
+#service h2 {
+	padding-top: 10px;
+	font-size: 75px;
+	display: inline;
+	margin-left: 40%;
+}
+
+.service-text-right h3 {
+	font-size: 50px;
+	text-align: right;
+	padding-bottom: 30px;
+}
+
+.service-text-left h3 {
+	font-size: 50px;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+.service-text-right h5 {
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+
+.service-text-right p {
+	font-size: 25px;
+	text-align: right;
+}
+
+#service img {
+	max-height: 400px;
+}
+
+/* WORK */
+
+#work h2 {
+	padding-top: 10px;
+	font-size: 75px;
+	display: inline;
+	text-align: center;
+	margin-left: 40%;
+}
+
+video {
+	padding-left: 15%;
+}
+
+/* BLOG */
+#blog-img {
+	background-image: url("blog.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 50px;
+	height: 600px;
+	margin-bottom: 100px;
+}
+
+.blog-text-one h2 {
+	font-size: 75px;
+	color: #fff;
+	padding-top: 75px;
+	padding-left: 300px;
+}
+
+.blog-text-one p {
+	font-size: 30px;
+	text-align: center;
+	padding-right: 850px;
+	color: #a2a2a2;
+}
+
+#blog-img a {
+	font-size: 75px;
+	color: #fff;
+	padding-left: 175px;
+}
+
+/* Button Three */
+
+.button-three {
+    background-color: #fff;
+    margin-top: 75px;
+	margin-left: 25px;
+    font-family: "PT Sans Narrow";
+    font-size: 150px;
+    border: none;
+	border-radius: 20px;
+}
+
+.button-three:hover {
+	background-color: #001038;
+	color: #fff;
+}
+
+/* CONTACT */
+#contact {
+	height: 750px;
+}
+
+#contact h2 {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 75px;
+}
+
+#contact img {
+	max-height: 200px;
+	margin-top: 50px;
+}
+
+#contact ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#contact li {
+	display: inline-block;
+	margin-left: 75px;
+	margin-right: 100px;
+	padding-top: 25px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.email {
+	margin-left: 30%;
+}
+
+.phone {
+	margin-left: 200px;
+}
